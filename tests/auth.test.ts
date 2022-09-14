@@ -1,7 +1,7 @@
 import supertest from "supertest";
 import app from "../src/app";
 import connection from "../src/config/db";
-import * as userFactory from "./factories/authFactory";
+import * as userFactory from "./Body/authFactory";
 
 
 afterAll(async () => {
