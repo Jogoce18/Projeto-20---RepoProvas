@@ -17,7 +17,7 @@ app.use(router);
 app.use(errorHandler);
 
 const port = process.env.PORT || 5000;
-
+console.log(`Server started on port ${process.env.DATABASE_URL}`)
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });

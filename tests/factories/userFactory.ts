@@ -11,8 +11,8 @@ export function userFactory() {
 }
 
 export function adminFactory() {
-  const email = "jogoce@gmail.com"
-  const password = "jogoce123"
+  const email = "admin@admin.com"
+  const password = "admin123"
 
   return {
     email,
